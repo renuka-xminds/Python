@@ -60,3 +60,49 @@ match operation:
         print(firstNumber/secondNumber)
 
 
+"""1.Create a list containing marks of a student
+Find the total and average of marks
+ Find the maximum mark"""
+
+sum = 0
+mark = [32.5, 33.0, 31.8, 2]
+for i in mark:
+    sum = sum + i
+#sum and average of mark
+print("sum of mark =", sum)
+print("average of mark =", sum/len(mark))
+
+#descending order
+mark.sort(reverse=True)
+print(mark)
+
+#highest 3 marks
+print(mark[0:3])
+
+"""Next create a todo list
+Add new task
+remove task
+insert a task in a position"""
+
+todoList = ["log check", "testing"]
+print(todoList)
+#adding item
+todoList.append("bug fixing")
+print(todoList)
+#removing item
+todoList.remove("testing")
+print(todoList)
+
+#adding testing after bug fixing
+
+todoList.insert(2, "testing")
+print(todoList)
+
+
+
+
+
+
+
+
+
