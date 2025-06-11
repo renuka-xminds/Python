@@ -136,6 +136,17 @@ names2 = {"bhagya","karthi","karthi","renuka"}
 result = names.intersection(names2)
 print(result)
 
+#Pgm to count words in a sentence
+
+sentence = "I am learning Python"
+words = sentence.split()
+wordsCount = len(words)
+print(wordsCount)
+
+#Count the number of occurrence of a word in a string
+
+sentence = "I am learning python and python frameworks"
+print(sentence.count("python"))
 
 
 
