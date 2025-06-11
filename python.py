@@ -127,6 +127,17 @@ print(names)
 names.clear()
 print(names)
 
+"""
+Define another set of names
+List the common names in both sets
+"""
+names = {"renuka","vishnu"}
+names2 = {"bhagya","karthi","karthi","renuka"}
+result = names.intersection(names2)
+print(result)
+
+
+
 
 
 
