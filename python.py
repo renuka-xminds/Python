@@ -98,6 +98,37 @@ print(todoList)
 todoList.insert(2, "testing")
 print(todoList)
 
+"""
+Define a set containing names
+Add a single name
+Add multiple names from another list or tuple
+Remove a specific element from the set
+Remove random element
+Remove all element
+"""
+
+names = {"renuka","pooja","nithin"}
+print(names)
+#Add a single name
+names.add("Jishnu")
+print(names)
+#Add multiple names from another list or tuple
+nameList = ["hari","praveen"]
+names.update(nameList)
+print(names)
+#Remove a specific element from the set
+names.remove("hari")
+print(names)
+#Remove random element
+x= names.pop()
+print(x)
+print(names)
+#Remove all element
+names.clear()
+print(names)
+
+
+
 
 
 
